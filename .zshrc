@@ -114,7 +114,7 @@ fi
 fpath+=${ZSH}/.zsh_functions
 
 # Exports
-export PATH=${PATH}:"$HOME/.local/bin:$HOME/.emacs.d/bin:/opt/cisco/anyconnect/bin/:$HOME/bin"
+export PATH="${HOME}/.local/bin:/opt/cisco/anyconnect/bin/:${HOME}/bin:${PATH}"
 export FZF_DEFAULT_COMMAND='rg --no-ignore --files --hidden --glob "!.git"'
 export PYTHONBREAKPOINT="ipdb.set_trace"
 
