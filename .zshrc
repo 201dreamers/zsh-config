@@ -173,4 +173,7 @@ alias files='nohup nautilus . > /dev/null &'
 # Bindings
 bindkey '^p' up-line-or-beginning-search
 bindkey '^n' down-line-or-beginning-search
-bindkey '^F' fzf-cd-widget
+# bindkey '^F' fzf-cd-widget
+
+# Config file where you can put stuff you want to keep local
+source ~/.zshrc.ignore
